@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eloguess</title>
+    <link
+      href="https://c2a.chesstempo.com/pgnviewer/v2.5/pgnviewerext.vers1.css"
+      media="all"
+      rel="stylesheet"
+      crossorigin
+    />
+    <script
+      defer
+      language="javascript"
+      src="https://c1a.chesstempo.com/pgnviewer/v2.5/pgnviewerext.bundle.vers1.js"
+      crossorigin
+    ></script>
+    <link
+      href="https://c1a.chesstempo.com/fonts/MaterialIcons-Regular.woff2"
+      rel="stylesheet"
+      crossorigin
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <style>
+      #elo a {
+        color: black;
+        background-color: black;
+        padding: 2px;
+        text-decoration: none;
+        border-radius: 2px;
+      }
+      #elo a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="result"></div>
+    <div id="elo"></div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
